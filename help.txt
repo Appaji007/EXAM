@@ -1,0 +1,41 @@
+DATABASE CONNECTIVITY
+Create folder final
+Go to  vs code open folder final
+Create folder src
+Open terminal
+-npm init
+-npm install mysql
+- npm install bluebird
+- npm install express
+- npm install nodemon
+Type in script of package.json :: ("start":"nodemon src/main.js ",) 
+- npm install moment
+- npm install cors
+Create file user.js
+Workbench
+create database project1;
+use project1;
+
+
+
+
+main.js
+const express = require("express");
+const res = require("express/lib/response");
+
+
+
+postman
+Open postman collection + new collection  add a request  
+ replace get with post  http://localhost:4000/us   send replace post with get  http://localhost:4000/users  --> send 
+
+FRONTEND
+Create folder rollno and open cmd
+npx create-react-app myapp
+open vscode open folder myapp
+myapp  src  app.js
+open terminal  cd myapp  npm install react-bootstrap bootstrap@5.1.3
+myapp  src  index.js  line no 6: import 'bootstrap/dist/css/bootstrap.min.css';
+myapp src  app.js  on terminal: npm start (remove all code from return function , import)
+on terminal in myapp : npm install axios
+	write below code in app.js (remove all code)
